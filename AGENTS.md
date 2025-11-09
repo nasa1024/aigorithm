@@ -1,59 +1,59 @@
-# 算法学习仓库使用指南
+# Algorithm Learning Repository Usage Guide
 
-## 项目结构
-- `golang/`: Go 语言算法实现，按算法类型分子目录
-- `python/`: Python 语言算法实现，按算法类型分子目录
-- `templates/`: 算法实现模板，用户根据模板完成代码
-- `solutions/`: 参考解答和最佳实践
-- `docs/`: 学习文档和算法分析
-- 各语言目录按算法分类：排序、搜索、图论、动态规划等
+## Project Structure
+- `golang/`: Go language algorithm implementations, organized by algorithm types in subdirectories
+- `python/`: Python language algorithm implementations, organized by algorithm types in subdirectories
+- `templates/`: Algorithm implementation templates, users complete code based on templates
+- `solutions/`: Reference solutions and best practices
+- `docs/`: Learning documentation and algorithm analysis
+- Each language directory organized by algorithm categories: sorting, searching, graph theory, dynamic programming, etc.
 
-## 使用方式
-**一次只做一道题**：用户每次选择并完成一个算法题目，完成后通知助手进行评价
+## Usage Method
+**One Problem at a Time**: Users select and complete one algorithm problem at a time, then notify the assistant for evaluation
 
-## 构建和测试命令
-- **Go**: `cd golang && go run .` 或 `go build`
-- **Python**: `cd python && python main.py` 或 `python3 main.py`
-- **测试**: 在各算法目录中运行对应语言的测试命令
-- **格式化**: Go 使用 `gofmt`，Python 使用 `black` 或 `autopep8`
+## Build and Test Commands
+- **Go**: `cd golang && go run .` or `go build`
+- **Python**: `cd python && python main.py` or `python3 main.py`
+- **Testing**: Run corresponding language test commands in each algorithm directory
+- **Formatting**: Go uses `gofmt`, Python uses `black` or `autopep8`
 
-## 编码规范
-- **Go**: 使用 `gofmt` 格式化；函数和变量用 camelCase；包名用小写
-- **Python**: 遵循 PEP 8 标准；使用 snake_case 命名；类用 CamelCase
-- **通用**: 变量名要有意义，避免单字母变量；添加必要注释
+## Coding Standards
+- **Go**: Use `gofmt` for formatting; functions and variables use camelCase; package names use lowercase
+- **Python**: Follow PEP 8 standards; use snake_case naming; classes use CamelCase
+- **General**: Variable names should be meaningful, avoid single-letter variables; add necessary comments
 
-## 测试规范
-- **Go**: 使用内置测试包，测试文件以 `_test.go` 结尾
-- **Python**: 使用 unittest 或 pytest 框架，测试文件以 `test_` 开头
-- 每个算法实现应包含对应测试用例
-- 测试应覆盖常见边界情况和异常输入
+## Testing Standards
+- **Go**: Use built-in testing package, test files end with `_test.go`
+- **Python**: Use unittest or pytest framework, test files start with `test_`
+- Each algorithm implementation should include corresponding test cases
+- Tests should cover common edge cases and abnormal inputs
 
-## 学习路径（从简单到困难）
-1. **基础算法**: 排序、搜索、数学计算
-2. **数据结构**: 数组、链表、栈、队列、哈希表
-3. **中级算法**: 递归、分治、贪心算法
-4. **高级算法**: 动态规划、图论、树结构
-5. **综合应用**: 复杂问题求解
+## Learning Path (From Simple to Difficult)
+1. **Basic Algorithms**: Sorting, searching, mathematical calculations
+2. **Data Structures**: Arrays, linked lists, stacks, queues, hash tables
+3. **Intermediate Algorithms**: Recursion, divide and conquer, greedy algorithms
+4. **Advanced Algorithms**: Dynamic programming, graph theory, tree structures
+5. **Comprehensive Applications**: Complex problem solving
 
-## 题目难度分级
-- **简单**: 基础概念和实现
-- **中等**: 需要一定算法思维
-- **困难**: 复杂算法设计和优化
+## Problem Difficulty Levels
+- **Easy**: Basic concepts and implementation
+- **Medium**: Requires certain algorithmic thinking
+- **Hard**: Complex algorithm design and optimization
 
-## 学习流程
-1. 用户选择算法类型和具体题目（一次一题）
-2. 提供算法模板和要求
-3. 用户实现核心算法逻辑
-4. 用户完成代码后通知助手
-5. 助手生成详细的 `doc.md` 评价文档
-6. 根据评价结果给出优化建议
+## Learning Process
+1. User selects algorithm type and specific problem (one at a time)
+2. Provide algorithm template and requirements
+3. User implements core algorithm logic
+4. User notifies assistant after completing code
+5. Assistant generates detailed `doc.md` evaluation document
+6. Provide optimization suggestions based on evaluation results
 
-## 评价标准
-- **正确性**: 算法逻辑正确，处理边界情况
-- **效率**: 合理的时间和空间复杂度
-- **可读性**: 代码清晰，有适当注释
-- **测试**: 包含完整的测试用例，覆盖边界情况
-- **最佳实践**: 遵循语言约定，使用合适的数据结构
+## Evaluation Criteria
+- **Correctness**: Algorithm logic is correct, handles edge cases
+- **Efficiency**: Reasonable time and space complexity
+- **Readability**: Code is clear with appropriate comments
+- **Testing**: Includes complete test cases covering edge cases
+- **Best Practices**: Follow language conventions, use appropriate data structures
 
-## 输出语言
-- 用户的母语是中文，需要根据中文语言习惯输出
+## Output Language
+- User's native language is Chinese, output should follow Chinese language habits
